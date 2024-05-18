@@ -65,7 +65,7 @@ Place the downloaded best_model.pth file in the project root directory.
 To use this repository, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/skasrap/bone-age-assessment.git
+    git clone https://github.com/skasrap/bone-age-assessment-v1.git
     ```
 2. Install the required dependencies:
     ```bash
