@@ -1,6 +1,6 @@
 # Bone Age Prediction Using Integrated Deep Neural Networks
 
-This repository contains the implementation of a deep learning model to predict bone age from hand radiographs. The project utilizes ResNet-50 for image feature extraction and a Dense Neural Network for integrating gender feature.
+This repository contains the implementation of a deep learning model to predict bone age from hand radiographs. The project utilizes ResNet-50 for image feature extraction and a Shallow Neural Network for integrating gender feature.
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -21,7 +21,7 @@ In the project we start by exploring the dataset, which includes radiographic im
 ## Model Architecture
 Our model architecture consists of two main components:
 1. **ResNet-50**: Used for extracting features from the radiographic images.
-2. **Dense Neural Network**: Used to process additional features such as gender.
+2. **Shallow Neural Network**: Used to process additional features such as gender.
 
 These components are then combined and passed through two linear layers to predict bone age.
 
